@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Citizen Dapp",
+    "slug": "citizen-dapp",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo/citizen.png",
+    "scheme": "citizendapp",
+    "splash": {
+      "image": "./assets/splash2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "xyz.citizen.client",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Allow Citizen to save photos",
+        "NSCameraUsageDescription": "Allow Citizen to access your camera", 
+        "NSMicrophoneUsageDescription": "Allow Citizen to use your microphone"
+      }
+    },
+    "android": {
+      "icon": "./assets/icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#35D07F"
+      }
+    },
+    "description": "Fundraising for you and your community, on Celo",
+    "githubUrl": "https://github.com/lightideaslab/Citizen-Mobile"
+  }
+}
+
