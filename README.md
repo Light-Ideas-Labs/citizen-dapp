@@ -102,7 +102,7 @@ cd Citizen-Mobile
 
 ## Links
 
-We're building this for the ["coding4integrity" hackathon organized by UNCAC](https://github.com/Light-Ideas-Labs/citizen-dapp).
+We're building this for the ["coding4integrity" hackathon organized by UNCAC](https://coding4integrity.com/).
 
 Website: [citizen.app](Not Available Yet)
 
