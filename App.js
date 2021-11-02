@@ -20,6 +20,8 @@ import BidListing  from './screens/BidListing';
 import TenderUpload from './screens/TenderUpload';
 import VerifyWork from './screens/VerifyWork';
 import ConfirmationProposal from './screens/ConfirmationProposal';
+import Approval from './screens/Approval';
+import Payment from './screens/Payment';
 import Settings from './screens/Settings';
 import CreateReceipt from './screens/CreateReceipt';
 import AppOnboarding from './screens/AppOnboarding';
@@ -91,6 +93,14 @@ function BidStackScreen(props){
         />
     <HomeStack.Screen name="ConfirmationProposal"  
         component={ConfirmationProposal}
+        options={{ headerShown: false }}
+      />
+    <HomeStack.Screen name="Approval"  
+        component={Approval}
+        options={{ headerShown: false }}
+      /> 
+    <HomeStack.Screen name="Payment"  
+        component={Payment}
         options={{ headerShown: false }}
       />
     </HomeStack.Navigator>

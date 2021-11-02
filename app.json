@@ -28,7 +28,7 @@
       "bundleIdentifier": "xyz.citizen.client",
       "infoPlist": {
         "NSPhotoLibraryUsageDescription": "Allow Citizen to save photos",
-        "NSCameraUsageDescription": "Allow Citizen to access your camera", 
+        "NSCameraUsageDescription": "Allow Citizen to access your camera",
         "NSMicrophoneUsageDescription": "Allow Citizen to use your microphone"
       }
     },
@@ -39,8 +39,7 @@
         "backgroundColor": "#35D07F"
       }
     },
-    "description": "Fundraising for you and your community, on Celo",
-    "githubUrl": "https://github.com/lightideaslab/Citizen-Mobile"
+    "description": "Citizen is a Decentralized Application built on top of the Celo Blockchain to track donation /procurement funds as well as NGOs/government projects.",
+    "githubUrl": "https://github.com/Light-Ideas-Labs/citizen-dapp"
   }
 }
-

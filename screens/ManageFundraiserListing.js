@@ -152,7 +152,7 @@ function ManageFundraiserListing(props) {
             <ActivityIndicator color="#999999" size="large" />
           </>
         }
-
+        
         {currentState === "Fundraising" ? (
           <Button title={"Terminate Project"}
             TouchableComponent={TouchableWithoutFeedback}

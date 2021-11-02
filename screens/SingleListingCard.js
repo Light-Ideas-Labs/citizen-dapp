@@ -60,7 +60,7 @@ function SingleListingCard(props) {
             <Text style={styles.dateText}>Project ends on {dateOutput} </Text>
           ) : (
             <>
-              <Text style={styles.currentRaisedTextDone}>You have terminate your project!</Text>
+              <Text style={styles.currentRaisedTextDone}>You have terminated your project!</Text>
               <Text style={styles.dateText}>Project ended</Text>
             </>
           )}

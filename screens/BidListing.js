@@ -70,6 +70,12 @@ function FundraiserListing(props) {
         
         {currentState === "Fundraising" ? ( 
           <View style={styles.button}>
+          <Button title={"View Project Status"} 
+            buttonStyle={styles.createFundraiserButton2} 
+            titleStyle={styles.fundraiserTextStyle} 
+            type="solid"  
+            onPress={() => navigation.navigate('Approval', {projectId: projectId, loggedIn: loggedIn, address: address, creatorName: creatorName, title: title, nav: navigation})}/>
+          
           <Button title={"Bid for this project Now"} 
             buttonStyle={styles.createFundraiserButton} 
             titleStyle={styles.fundraiserTextStyle} 
@@ -170,8 +176,18 @@ const styles = StyleSheet.create({
     marginRight: normalize(10),
     marginBottom: normalize(10)
   },
+  createFundraiserButton2: {
+    marginTop: normalize(10),
+    marginBottom: normalize(5),
+    marginRight: normalize(40),
+    height: normalize(40),
+    borderRadius: 30,
+    alignItems: 'center',
+    width: 200,
+    backgroundColor: "#3A95FF"
+  },
   createFundraiserButton: {
-    marginTop: normalize(40),
+    marginTop: normalize(20),
     marginBottom: normalize(40),
     marginRight: normalize(40),
     height: normalize(40),

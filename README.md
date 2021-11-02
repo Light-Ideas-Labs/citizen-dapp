@@ -104,7 +104,9 @@ cd Citizen-Mobile
 
 We're building this for the ["coding4integrity" hackathon organized by UNCAC](https://coding4integrity.com/).
 
-Website: [citizen.app](Not Available Yet)
+App: [citizen.Dapp](https://expo.dev/@jordan_type/citizen-dapp)
+
+Website: [citizen.app](https://expo.dev/@jordan_type/citizen-dapp)
 
 Smart contracts: [available here](https://github.com/Light-Ideas-Labs/citizen-mobile/tree/main/contracts)
 
