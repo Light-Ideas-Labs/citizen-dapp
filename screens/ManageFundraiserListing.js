@@ -152,7 +152,7 @@ function ManageFundraiserListing(props) {
             <ActivityIndicator color="#999999" size="large" />
           </>
         }
-        
+
         {currentState === "Fundraising" ? (
           <Button title={"Terminate Project"}
             TouchableComponent={TouchableWithoutFeedback}
@@ -233,7 +233,7 @@ const styles = StyleSheet.create({
     width: 200,
     alignItems: 'center',
     borderRadius: 30,
-    backgroundColor: "#882422"
+    backgroundColor: "#3A95FF"
   }, 
   fundraiserTextStyle: {
     fontFamily: 'proximanova_bold',
