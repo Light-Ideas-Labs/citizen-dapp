@@ -114,7 +114,9 @@ Mockups + design board: [available here](https://www.figma.com/file/r881q63JKA88
 
 UI Design board: [available here](https://www.figma.com/file/r881q63JKA88Khjtl2LZ5s/Citizen-Dapp)
 
-Pitch Deck: [available here](https://docs.google.com/presentation/d/1ZPMl1AANEykOAx1XMqE6xv6xc2ZII8Jz/edit?usp=sharing&ouid=111426695071936516553&rtpof=true&sd=true)
+Video Demo: [available here](https://youtu.be/8b_rG47lV58)
+
+Pitch Deck: [available here](https://docs.google.com/presentation/d/167xRM0ciFb4jnSHAH1DdbeHHJTvsYmg0/edit?usp=sharing&ouid=111426695071936516553&rtpof=true&sd=true)
 
 ## License
 
